@@ -28,10 +28,10 @@ the message signal. The general form of an AM signal is:
 ```import numpy as np 
 import matplotlib.pyplot as plt 
 # Given parameters 
-Ac = 7 # Carrier amplitude 
-fc = 1200 # Carrier frequency in Hz 
-Am = 5# Message signal amplitude 
-fm = 120 # Message signal frequency in Hz 
+Ac = 0.5 # Carrier amplitude 
+fc = 100 # Carrier frequency in Hz 
+Am = 0.5# Message signal amplitude 
+fm = 50 # Message signal frequency in Hz 
 fs = 12000 # Sampling frequency 
 t = np.arange(0, 2/fm, 1/fs) # Time vector 
 # Message signal (modulating signal) 
